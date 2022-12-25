@@ -1,13 +1,11 @@
 /* eslint-disable */
 const TEMPLATE_CONFIG = [
-  {
-    id: '0001',
-    title: '宝贝',
-    desc: `
+    {
+        id: '0001',
+        title: '老公问候',
+        desc: `
       **{{date.DATA}}**
-      
-      下个休息日：{{holidaytts.DATA}}
-      
+            
       ---
       
       城市：{{city.DATA}}
@@ -30,15 +28,14 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{moment_copyrighting.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
-  },
-  {
-    id: '0002',
-    title: '推送完成提醒',
-    desc: `
+    },
+    {
+        id: '0002',
+        title: '推送完成提醒',
+        desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
       
       ---
@@ -51,7 +48,7 @@ const TEMPLATE_CONFIG = [
       
       失败用户: {{fail_post_ids.DATA}}
     `
-  },
+    },
 ]
 
 module.exports = TEMPLATE_CONFIG
