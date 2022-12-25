@@ -28,11 +28,7 @@ const TEMPLATE_CONFIG = [
       
       https://lirui.love/
       
-      ---
-      
-      
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
-    `
+      ---    `
     },
     {
         id: '0002',
